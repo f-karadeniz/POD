@@ -10,3 +10,16 @@ Before starting, make sure the following are installed:
 
 > **Tip:** Use Node.js version >=18 to avoid dependency conflicts.
 
+
+START
+    Backend
+        To start backend run npm run start:dev on apps/backend
+
+    Frontend
+        To start frontend run npm run dev
+    
+    WEB
+        To display website go http://localhost:3001/
+
+TODO
+    Oto refreshleyip listeye ekliyor fakat durumunuı ootmatik olarak backendden çekmiyor bunu düzelt.

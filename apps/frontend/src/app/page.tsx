@@ -1,5 +1,7 @@
 import { StatusBadge } from '@/components/StatusBadge';
 import { revalidatePath } from 'next/cache';
+import { PrintJobList } from '@/components/PrintJobList';
+
 
 
 async function getJobs() {
@@ -46,15 +48,8 @@ export default async function HomePage() {
         <button className="border px-3 py-1">Create</button>
       </form>
 
-      {/* LIST */}
-      <ul className="space-y-2">
-        {jobs.map((job: any) => (
-          <li key={job.id} className="flex gap-4 items-center">
-            <span>{job.filename}</span>
-            <StatusBadge status={job.status} />
-          </li>
-        ))}
-      </ul>
+      <PrintJobList initialJobs={jobs} />
+
     </div>
   );
 }

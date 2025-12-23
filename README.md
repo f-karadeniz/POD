@@ -16,10 +16,10 @@ START
         To start backend run npm run start:dev on apps/backend
 
     Frontend
-        To start frontend run npm run dev
+        To start frontend run npm run dev on apps/frontend
     
     WEB
         To display website go http://localhost:3001/
 
 TODO
-    Oto refreshleyip listeye ekliyor fakat durumunuı ootmatik olarak backendden çekmiyor bunu düzelt.
+    backend çalıştı, frontende login ve auth ekleme kaldı, chatgpt son yazılanı yap.
